@@ -1,0 +1,1 @@
+{"uuid":"710de8db-a537-48c3-8a63-1f154481f526","name":"LoginTestCH","start":1496700562658,"stop":1496700593321,"children":["5f665f85-714e-4812-bc8b-f9ea82237ef8","89ff2462-503a-41ba-a66c-d98ea78632fb","a98ebae5-e329-43db-8324-8eeb926851c0"],"befores":[{"name":"setUpClass","status":"passed","stage":"finished","description":"","start":1496700562663,"stop":1496700562664}]}

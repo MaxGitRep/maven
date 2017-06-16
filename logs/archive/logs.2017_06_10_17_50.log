@@ -1,0 +1,8 @@
+[INFO ] 2017-06-10 17:50:30,796 [main] LoginTestFF:methodSetUp(24): Set Up
+[INFO ] 2017-06-10 17:50:31,802 [main] LoginTestFF:getDriver(16): Starting firefox driver
+[INFO ] 2017-06-10 17:50:46,383 [main] LoginTestFF:positiveLoginTest(31): Verify title
+[INFO ] 2017-06-10 17:50:46,412 [main] LoginTestFF:positiveLoginTest(37): Fill up email and pass
+[INFO ] 2017-06-10 17:50:47,153 [main] LoginTestFF:positiveLoginTest(41): Push Sing In
+[INFO ] 2017-06-10 17:50:47,277 [main] LoginTestFF:positiveLoginTest(43): Waiting visibility account settings
+[INFO ] 2017-06-10 17:50:48,265 [main] LoginTestFF:positiveLoginTest(47): Verify title and email
+[INFO ] 2017-06-10 17:50:48,413 [main] LoginTestFF:methodTearDown(30): Tear Down

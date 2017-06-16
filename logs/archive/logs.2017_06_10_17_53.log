@@ -1,0 +1,12 @@
+[INFO ] 2017-06-10 17:53:43,608 [TestNG-tests-1] LoginTestFF1:methodSetUp(24): Set Up
+[INFO ] 2017-06-10 17:53:43,608 [TestNG-tests-2] LoginTestFF2:methodSetUp(24): Set Up
+[INFO ] 2017-06-10 17:53:43,658 [TestNG-tests-1] LoginTestFF1:getDriver(16): Starting firefox driver
+[INFO ] 2017-06-10 17:53:43,658 [TestNG-tests-2] LoginTestFF2:getDriver(16): Starting firefox driver
+[INFO ] 2017-06-10 17:53:57,997 [TestNG-tests-2] LoginTestFF2:positiveLoginTest(31): Verify title
+[INFO ] 2017-06-10 17:53:58,088 [TestNG-tests-2] LoginTestFF2:positiveLoginTest(37): Fill up email and pass
+[INFO ] 2017-06-10 17:53:58,151 [TestNG-tests-1] LoginTestFF1:positiveLoginTest(31): Verify title
+[INFO ] 2017-06-10 17:53:58,190 [TestNG-tests-1] LoginTestFF1:positiveLoginTest(37): Fill up email and pass
+[INFO ] 2017-06-10 17:53:59,087 [TestNG-tests-2] LoginTestFF2:positiveLoginTest(41): Push Sing In
+[INFO ] 2017-06-10 17:53:59,292 [TestNG-tests-2] LoginTestFF2:positiveLoginTest(43): Waiting visibility account settings
+[INFO ] 2017-06-10 17:53:59,618 [TestNG-tests-1] LoginTestFF1:positiveLoginTest(41): Push Sing In
+[INFO ] 2017-06-10 17:53:59,810 [TestNG-tests-1] LoginTestFF1:positiveLoginTest(43): Waiting visibility account settings

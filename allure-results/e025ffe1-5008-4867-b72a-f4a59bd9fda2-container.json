@@ -1,0 +1,1 @@
+{"uuid":"e025ffe1-5008-4867-b72a-f4a59bd9fda2","name":"com.dice.base.BaseTest.methodSetUp","description":"","start":1496700042726,"stop":1496700051128,"children":["707d7bcd-4ea5-4d7f-b1c0-bffce1ddff95"],"befores":[{"name":"methodSetUp","status":"passed","stage":"finished","description":"","start":1496700042726,"stop":1496700051127}]}

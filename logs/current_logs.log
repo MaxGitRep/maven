@@ -1,0 +1,4 @@
+[INFO ] 2017-06-10 17:54:00,884 [TestNG-tests-2] LoginTestFF2:positiveLoginTest(47): Verify title and email
+[INFO ] 2017-06-10 17:54:00,993 [TestNG-tests-2] LoginTestFF2:methodTearDown(30): Tear Down
+[INFO ] 2017-06-10 17:54:01,656 [TestNG-tests-1] LoginTestFF1:positiveLoginTest(47): Verify title and email
+[INFO ] 2017-06-10 17:54:01,810 [TestNG-tests-1] LoginTestFF1:methodTearDown(30): Tear Down

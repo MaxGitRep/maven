@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" name="config">
+    <Properties>
+        <Property name="LOG_DIR">logs</Property>
+        <Property name="ARCHIVE">${LOG_DIR}/archive</Property>
+        <Property name="PATTERN">[%-5level] %d [%t] %c:%M(%L): %m%n</Property>
+        <Property name="NAME_PATTERN">%d{yyyy_MM_dd_HH_mm}</Property>
+    </Properties>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="${PATTERN}"/>
+        </Console>
+
+        <RollingFile name="fileWriter"
+                     fileName="${LOG_DIR}/current_logs.log"
+                     filePattern="${ARCHIVE}/logs.${NAME_PATTERN}.log">
+            <PatternLayout pattern="${PATTERN}"/>
+            <TimeBasedTriggeringPolicy/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="fileWriter"/>
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+        <!--Logger name="com.dice.LoginTest" level="INFO" additivity="false">
+            <AppenderRef ref="STDOUT"/>
+        </Logger>
+        <Logger name="com.dice.base." level="ERROR" additivity="true"/-->
+    </Loggers>
+</Configuration>

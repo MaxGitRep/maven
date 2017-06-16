@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstSuite" verbose="1" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.dice.base.TestListener"/>
+    </listeners>
+    <test name="LoginTestFF1">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="positive"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.dice.LoginTest">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginTestFF2">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="positive"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.dice.LoginTest">
+            </class>
+        </classes>
+    </test>
+
+    <!--test name="LoginTestCH">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.dice.LoginTest">
+            </class>
+        </classes>
+    </test-->
+</suite>

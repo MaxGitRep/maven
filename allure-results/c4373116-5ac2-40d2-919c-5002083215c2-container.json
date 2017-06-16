@@ -1,0 +1,1 @@
+{"uuid":"c4373116-5ac2-40d2-919c-5002083215c2","name":"com.dice.base.BaseTest.methodTearDown","description":"","start":1496696476350,"stop":1496696478117,"children":["2da44977-40b0-45bb-9295-8ff1bcd764ad"],"afters":[{"name":"methodTearDown","status":"passed","stage":"finished","description":"","start":1496696476352,"stop":1496696478117}]}

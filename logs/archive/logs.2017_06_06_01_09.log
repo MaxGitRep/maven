@@ -1,0 +1,26 @@
+[INFO ] 2017-06-06 01:09:02,769 [main] LoginTestFF:methodSetUp(24): Set Up
+[INFO ] 2017-06-06 01:09:02,832 [main] LoginTestFF:getDriver(14): Starting firefox driver
+[INFO ] 2017-06-06 01:09:18,329 [main] LoginTestFF:positiveLoginTest(31): Verify title
+[INFO ] 2017-06-06 01:09:18,364 [main] LoginTestFF:positiveLoginTest(37): Fill up email and pass
+[INFO ] 2017-06-06 01:09:19,477 [main] LoginTestFF:positiveLoginTest(41): Push Sing In
+[INFO ] 2017-06-06 01:09:19,625 [main] LoginTestFF:positiveLoginTest(43): Waiting visibility account settings
+[INFO ] 2017-06-06 01:09:20,676 [main] LoginTestFF:positiveLoginTest(47): Verify title and email
+[INFO ] 2017-06-06 01:09:20,823 [main] LoginTestFF:methodTearDown(30): Tear Down
+[INFO ] 2017-06-06 01:09:22,667 [main] LoginTestCH:methodSetUp(24): Set Up
+[INFO ] 2017-06-06 01:09:22,667 [main] LoginTestCH:getDriver(14): Starting chrome driver
+[INFO ] 2017-06-06 01:09:29,175 [main] LoginTestCH:positiveLoginTest(31): Verify title
+[INFO ] 2017-06-06 01:09:29,190 [main] LoginTestCH:positiveLoginTest(37): Fill up email and pass
+[INFO ] 2017-06-06 01:09:30,099 [main] LoginTestCH:positiveLoginTest(41): Push Sing In
+[INFO ] 2017-06-06 01:09:31,052 [main] LoginTestCH:positiveLoginTest(43): Waiting visibility account settings
+[INFO ] 2017-06-06 01:09:31,528 [main] LoginTestCH:positiveLoginTest(47): Verify title and email
+[INFO ] 2017-06-06 01:09:31,649 [main] LoginTestCH:methodTearDown(30): Tear Down
+[INFO ] 2017-06-06 01:09:33,204 [main] LoginTestCH:methodSetUp(24): Set Up
+[INFO ] 2017-06-06 01:09:33,205 [main] LoginTestCH:getDriver(14): Starting chrome driver
+[INFO ] 2017-06-06 01:09:36,775 [main] LoginTestCH:negativeLoginTest(66): Test# 1 for invalid email
+[INFO ] 2017-06-06 01:09:41,466 [main] LoginTestCH:negativeLoginTest(78): Verify error message
+[INFO ] 2017-06-06 01:09:41,834 [main] LoginTestCH:methodTearDown(30): Tear Down
+[INFO ] 2017-06-06 01:09:43,310 [main] LoginTestCH:methodSetUp(24): Set Up
+[INFO ] 2017-06-06 01:09:43,311 [main] LoginTestCH:getDriver(14): Starting chrome driver
+[INFO ] 2017-06-06 01:09:47,015 [main] LoginTestCH:negativeLoginTest(66): Test# 2 for invalid password
+[INFO ] 2017-06-06 01:09:51,543 [main] LoginTestCH:negativeLoginTest(78): Verify error message
+[INFO ] 2017-06-06 01:09:51,887 [main] LoginTestCH:methodTearDown(30): Tear Down
